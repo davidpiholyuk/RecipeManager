@@ -19,7 +19,7 @@ This application serves as a recipe management system. It provides functionaliti
 
 3. Start the Azure Function:
 
-Run: ```func start```
+   Run: ```func start```
 
 4. Open the HTML file in a browser.
 

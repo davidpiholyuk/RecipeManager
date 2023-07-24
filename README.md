@@ -21,7 +21,7 @@ This application serves as a recipe management system. It provides functionaliti
 
    Run: ```func start```
 
-4. Open the HTML file in a browser.
+4. Open the HTML file inside of the frontend folder in a browser.
 
 5. Now you should be able to add, retrieve, update, and mark recipes as favorites using the form on the page. 
 

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="David Piholyuk">
+  <meta name="description" content="Assignment 3">
+  <title>Recipe Management</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container mt-5">
+    <h1 class="text-center mb-4">Recipe Management</h1>
+
+    <!-- Form to add a new recipe -->
+    <form id="add-recipe-form" class="mt-5">
+      <h2>Add a new recipe</h2>
+      <div class="form-group">
+        <label for="recipe-name">Recipe name:</label>
+        <input type="text" id="recipe-name" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="recipe-ingredients">Ingredients:</label>
+        <textarea id="recipe-ingredients" class="form-control" required></textarea>
+      </div>
+      <div class="form-group">
+        <label for="recipe-instructions">Instructions:</label>
+        <textarea id="recipe-instructions" class="form-control" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Add recipe</button>
+    </form>
+
+    <!-- Form to retrieve a recipe -->
+    <form id="get-recipe-form" class="mt-5">
+      <h2>Get a recipe</h2>
+      <div class="form-group">
+        <label for="get-recipe-name">Recipe Name:</label>
+        <input type="text" id="get-recipe-name" class="form-control" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Get recipe</button>
+    </form>
+
+    <!-- Placeholder for recipe details -->
+    <div id="recipe-details" class="mt-5"></div>
+
+    <!-- Form to update a recipe -->
+    <form id="update-recipe-form" class="mt-5">
+      <h2>Update the name of a recipe</h2>
+      <div class="form-group">
+        <label for="update-recipe-name">Recipe Name:</label>
+        <input type="text" id="update-recipe-name" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="update-recipe-newname">New Recipe Name:</label>
+        <input type="text" id="update-recipe-newname" class="form-control" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Update recipe</button>
+    </form>
+
+    <!-- Form to add a recipe to favorites -->
+    <form id="favorite-recipe-form" class="mt-5">
+      <h2>Favorite a recipe</h2>
+      <div class="form-group">
+        <label for="favorite-recipe-name">Recipe Name:</label>
+        <input type="text" id="favorite-recipe-name" class="form-control" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Favorite recipe</button>
+    </form>
+  </div>
+
+  <!-- script that handles the form submissions and interactions -->
+  <script src="functionality.js"></script>
+</body>
+
+</html>

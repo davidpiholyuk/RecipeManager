@@ -3,6 +3,7 @@
 Description
 
 This application serves as a recipe management system. It provides functionalities to add, retrieve, update, and mark recipes as favorite. It's built using Azure Functions for the backend and HTML, CSS and JavaScript for the frontend.
+
 Pre-Requisites
 
     .NET Core 3.1 SDK or later

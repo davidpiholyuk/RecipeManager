@@ -1,5 +1,5 @@
-# RecipeManager
-Recipe Management System
+# Recipe Management System
+
 Description
 
 This application serves as a recipe management system. It provides functionalities to add, retrieve, update, and mark recipes as favorite. It's built using Azure Functions for the backend and HTML, CSS and JavaScript for the frontend.
@@ -16,7 +16,7 @@ Installation & Running the Application
 
 bash
 
-git clone https://github.com/username/repo-name.git
+git clone https://github.com/davidpiholyuk/RecipeManager.git
 
     Navigate to the project directory:
 
